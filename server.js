@@ -12,7 +12,7 @@ app.use(fileupload());
 app.use(bodyParser.json()); // To parse JSON bodies in POST requests
 
 // Load credentials from .env
-const validUsername = process.env.USERNAME;
+const validUsername = process.env.LOGIN_ID;
 const secretKey = process.env.SECRET_KEY;
 
 
