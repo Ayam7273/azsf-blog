@@ -1,18 +1,21 @@
 {
   "name": "bloggin-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "<!-- Manual -->\r #Heading1\r ##Heading2\r ###Heading3\r ####Heading4\r #####Heading5",
   "main": "server.js",
   "scripts": {
-    "start":"nodemon server.js"
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express-fileupload": "^1.2.1",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-fileupload": "^1.5.1",
     "express.js": "^1.0.0",
     "nodemon": "^2.0.12"
-  }
+  },
+  "keywords": []
 }
-
-

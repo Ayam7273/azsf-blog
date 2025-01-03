@@ -19,13 +19,6 @@ const createBlog = (blog) => {
     </div>
     `;
 }
-
-
-// 0. Preloader
-window.addEventListener("load", function() {
-    var preloader = document.getElementById('preloader');
-    preloader.style.display = 'none'; // Hide preloader
-});
   
 // 1. Hamburger menu
 const nav = document.querySelector(".nav"),
